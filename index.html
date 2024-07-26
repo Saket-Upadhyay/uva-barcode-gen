@@ -12,7 +12,7 @@
 
 <form id="barcodeForm">
     <label for="student_id">Enter Student ID (Number):</label>
-    <input id="student_id" name="student_id" required type="text">
+    <input id="student_id" max="9999999999" min="9999999" name="student_id" required type="number">
     <button type="submit">Get Barcode</button>
 </form>
 
@@ -27,7 +27,8 @@
 </div>
 
 <div id="help_section">
-    <p><a href="help.html">How to use?</a> | <a href="https://github.com/Saket-Upadhyay/uva-barcode-gen"> GitHub </a></p>
+    <p><a href="help.html">How to use?</a> | <a href="https://github.com/Saket-Upadhyay/uva-barcode-gen"> GitHub </a>
+    </p>
 </div>
 
 <script src="script.js"></script>
