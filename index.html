@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Generate UVA Student ID Barcode</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<h1 id="title_main">Generate UVA Student ID Barcode</h1>
+
+<form id="barcodeForm">
+    <label for="student_id">Enter Student ID (Number):</label>
+    <input id="student_id" name="student_id" required type="text">
+    <button type="submit">Get Barcode</button>
+</form>
+
+<div id="barcodeContainer">
+    <!-- Barcode will be displayed here -->
+    <img alt="(Barcode image will appear here after generation)" id="sidcode"/>
+</div>
+
+<div id="urlShortContainer">
+    <p id="directurlhead">Direct URL</p>
+    <a id="url_shortcut">(Direct address will be generated here)</a>
+</div>
+
+<div id="help_section">
+    <p><a href="help.html">How to use?</a> | <a href="https://github.com/Saket-Upadhyay/uva-barcode-gen"> GitHub </a></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+
+<footer id="footer">by <a href="https://saketupadhyay.com">Saket</a></footer>
+</html>
